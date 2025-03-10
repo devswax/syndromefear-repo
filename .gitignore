@@ -1,0 +1,19 @@
+# Ignorer les dossiers Unity inutiles
+Library/
+Logs/
+Temp/
+build/
+UserSettings/
+
+# Fichiers spécifiques à Rider/JetBrains
+.idea/
+*.iml
+*.ipr
+*.iws
+*.sln
+*.csproj
+.vscode/
+
+# Fichiers système (Windows & macOS)
+.DS_Store
+Thumbs.db
