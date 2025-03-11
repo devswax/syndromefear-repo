@@ -1,25 +1,39 @@
+//Que fait il :
+//  - Gère les tps entre chaque salle.
+
+//Dépendence :
 using UnityEngine;
 
 public abstract class Enigme
 {
-    public string Title;
-    public string Explanations;
-    public int Number;
-    public bool finished = false;
+    // Variable :
+    private string s_Title;
+    private string s_Explanations;
+    private int i_Number;
+
+    public bool b_finished = false;
     
     protected GameObject PlayField;
 
-    public Enigme(string title, string explanations, int number)
+    // Constructeur de la classe abstraite Enigme
+    public Enigme(string s_title, string s_explanations, int i_number)
     {
-        Title = title;
-        Explanations = explanations;
-        Number = number;
+        s_Title = s_title;
+        s_Explanations = s_explanations;
+        i_Number = i_number;
 
         PlayField = EnigmeManager.Instance.PlayField;
     }
-    
+
+    //Fonction de la classe abstraite Enigme :
     public abstract void Initialize();
 
     public abstract bool Check();
-
+    
+    // modif axel
+    
+    public string Title => s_Title;
+    public string Explanations => s_Explanations;
+    public int Number => i_Number;
+    public bool finished = false;
 }
