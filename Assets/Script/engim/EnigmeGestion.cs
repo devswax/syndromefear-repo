@@ -38,12 +38,12 @@ public class EnigmeGestion : MonoBehaviour
 
     public void LoadEnigmes(int number)
     {
-        enigmeActuelle = enigmes.Find(e => e.Number == number);
+        enigmeActuelle = enigmes.Find(e => e.i_Number == number);
         
         if (enigmeActuelle != null)
         {
-            Debug.Log($"🔍 Chargement de l'énigme : {enigmeActuelle.Title}");
-            EnigmeManager.Instance.LoadEnigme(enigmeActuelle.Explanations, enigmeActuelle.Number, enigmeActuelle.Title);
+            Debug.Log($"🔍 Chargement de l'énigme : {enigmeActuelle.s_Title}");
+            EnigmeManager.Instance.LoadEnigme(enigmeActuelle.s_Explanations, enigmeActuelle.i_Number, enigmeActuelle.s_Title);
             
             enigmeActuelle.Initialize();
         }

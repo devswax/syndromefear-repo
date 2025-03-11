@@ -102,7 +102,7 @@ public class EnigmeManager : MonoBehaviour
             if (isValid)
             {
                but.Start();
-               enigme.finished = true;
+               enigme.b_finished = true;
                Quit(0);
             }
          }
@@ -152,9 +152,5 @@ public class EnigmeManager : MonoBehaviour
         yield return new WaitForSeconds(10f);
         menu.SetActive(true);
       }
-        
    }
-
-
-   
 }

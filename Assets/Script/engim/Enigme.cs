@@ -7,9 +7,9 @@ using UnityEngine;
 public abstract class Enigme
 {
     // Variable :
-    private string s_Title;
-    private string s_Explanations;
-    private int i_Number;
+    public string s_Title;
+    public string s_Explanations;
+    public int i_Number;
 
     public bool b_finished = false;
     
@@ -29,11 +29,4 @@ public abstract class Enigme
     public abstract void Initialize();
 
     public abstract bool Check();
-    
-    // modif axel
-    
-    public string Title => s_Title;
-    public string Explanations => s_Explanations;
-    public int Number => i_Number;
-    public bool finished = false;
 }
