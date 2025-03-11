@@ -682,8 +682,8 @@ Transform:
   m_GameObject: {fileID: 89683326}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 28.543, y: 3.055, z: 0}
-  m_LocalScale: {x: 2.1297023, y: 2.990589, z: 1}
+  m_LocalPosition: {x: 28.542, y: 3.007, z: 0}
+  m_LocalScale: {x: 2.0046887, y: 2.8883107, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2904,7 +2904,7 @@ Transform:
   m_GameObject: {fileID: 525692056}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.3884, y: -36.2418, z: 0}
+  m_LocalPosition: {x: 13.71, y: -38.118, z: 0}
   m_LocalScale: {x: 7.3572526, y: 3.6441936, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3262,8 +3262,8 @@ Transform:
   m_GameObject: {fileID: 573234071}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.8368, y: -15.044, z: 0}
-  m_LocalScale: {x: 5.847863, y: 2.854218, z: 1}
+  m_LocalPosition: {x: -6.631, y: -16.851, z: 0}
+  m_LocalScale: {x: 5.069779, y: 3.1476164, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -3866,6 +3866,11 @@ MonoBehaviour:
   audioSource2: {fileID: 0}
   Coche1: {fileID: 0}
   Coche2: {fileID: 0}
+--- !u!1 &679167472 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2040464363852346286, guid: 11625b113efa13c45843ab3f92c23e41, type: 3}
+  m_PrefabInstance: {fileID: 1089572404}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &697689704
 GameObject:
   m_ObjectHideFlags: 0
@@ -5744,7 +5749,7 @@ Transform:
   m_GameObject: {fileID: 953094767}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 60.34, y: -20.07, z: 0}
+  m_LocalPosition: {x: 52.13, y: -28.99, z: 0}
   m_LocalScale: {x: 2.361509, y: 7.795568, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6616,7 +6621,10 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 670554247695807180, guid: 11625b113efa13c45843ab3f92c23e41, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1584715361}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2040464363852346286, guid: 11625b113efa13c45843ab3f92c23e41, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 670554248768404790}
   m_SourcePrefab: {fileID: 100100000, guid: 11625b113efa13c45843ab3f92c23e41, type: 3}
 --- !u!1 &1105371582
 GameObject:
@@ -12007,6 +12015,52 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 670554247695807180, guid: 11625b113efa13c45843ab3f92c23e41, type: 3}
   m_PrefabInstance: {fileID: 1089572404}
   m_PrefabAsset: {fileID: 0}
+--- !u!61 &670554248768404790
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 679167472}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -7.79, y: 8.7}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1001 &3735714631828135953
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12262,7 +12316,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6843576303891757499, guid: f8859ba51bfb4cc4885c73e00ddf5000, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7591365871963794939, guid: f8859ba51bfb4cc4885c73e00ddf5000, type: 3}
       propertyPath: m_SortingOrder
